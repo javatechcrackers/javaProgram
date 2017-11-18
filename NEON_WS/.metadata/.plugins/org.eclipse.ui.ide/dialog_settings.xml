@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="E:\[PROJECTS]\[JAVA]\XMLGenerator"/>
+			<item value="E:\[PROJECTS]\[JAVA]\ThreadExecutor"/>
+			<item value="E:\[PROJECTS]\[JAVA]\ThreadExample"/>
+			<item value="E:\[PROJECTS]\[JAVA]\StringPuzzles"/>
+			<item value="E:\[PROJECTS]\[JAVA]\SingleTon"/>
+			<item value="E:\[PROJECTS]\[JAVA]\Serialization"/>
+			<item value="E:\[PROJECTS]\[JAVA]\OneIT"/>
+			<item value="E:\[PROJECTS]\[JAVA]\LearningTester"/>
+			<item value="E:\[PROJECTS]\[JAVA]\JavaSCJPQuiz"/>
+			<item value="E:\[PROJECTS]\[JAVA]\javaMailService"/>
+			<item value="E:\[PROJECTS]\[JAVA]\Java_Demo"/>
+			<item value="E:\[PROJECTS]\[JAVA]\Interview_hunter"/>
+			<item value="E:\[PROJECTS]\[JAVA]\HackerRank"/>
+			<item value="E:\[PROJECTS]\[JAVA]\Generic"/>
+			<item value="E:\[PROJECTS]\[JAVA]\Exception"/>
+			<item value="E:\[PROJECTS]\[JAVA]\DesignPattern"/>
+			<item value="E:\[PROJECTS]\[JAVA]\Concurrency"/>
+			<item value="E:\[PROJECTS]\[JAVA]\CollectionFramework"/>
+			<item value="E:\[PROJECTS]\[JAVA]\BasicJava"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

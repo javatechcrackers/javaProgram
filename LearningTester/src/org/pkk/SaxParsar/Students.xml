@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Students>
+    <Student type="regular">
+       <Name>Joe</Name>
+       <RollNo>21</RollNo>
+       <Age>25</Age>
+    </Student> 
+    <Student type="open">
+       <Name>Ramson</Name>
+       <RollNo>23</RollNo>
+       <Age>24</Age>
+    </Student> 
+</Students>

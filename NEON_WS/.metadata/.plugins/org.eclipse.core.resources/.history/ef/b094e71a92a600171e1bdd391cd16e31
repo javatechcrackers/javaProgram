@@ -1,0 +1,28 @@
+package org.pkk.overloading.staticMethod;
+
+/*Overloading of methods which differs in static keyword
+
+We cannot overload two methods which differs in static
+keyword but has the same method signature. When we try to do so we will be getting
+” Cannot make a static reference to the non-static method “ error.*/
+
+
+public class OverloadExampleNonStatic 
+{
+    public void disp()
+    {
+        System.out.println("Non static disp() method called");
+    }
+    
+    public static void disp()
+    {
+        System.out.println("static disp() method called121");
+    }
+    
+    public static void main(String args[])
+    {
+        //Calling the disp() method
+    	OverloadExampleNonStatic.disp();
+        
+    }
+}

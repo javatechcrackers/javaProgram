@@ -1,0 +1,46 @@
+
+1.	Write a program that will analyse the string.... 
+
+char str[90]="my brother is taller than me@1233334. I always a short man,but smart than him"; 
+
+1)Remove spaces between words, 
+2)Find the longest word in the String, 
+3)Search and count the number of letters"e" in the string 4)Extact the number of integers in string 
+5)Extract the number of doubles in string 
+6)Extract the number of words in string 
+7)Identify the number of sentences in the String.
+
+2.	N players with weights are given as input. divide them into 2 teams with equal weights. while dividing , ensure that difference in number of players in each team is minimum. output the difference in number of players in 2 teams. 
+input weights - 3 2 1 
+output – 1
+
+3.	a string contains oly 3 characters in a string -'a','b','c' . if in the string, 2 different chars occur together they are replaced with the third char. operation is repeated till no reduction is possible. the string must be evaluated from left to right always. 
+input - abbc 
+output- 1
+
+For technical round they may ask to write 3 code in any language.
+1.	Take a string by the user and ask the user to inter the another character and check whether it is palindrome or not.
+
+Eg:-  enter any string: ab
+	Enter a character and index at which u want to enter: a,2
+	aba
+	Yes, palindrome
+
+
+2.	take a string by the user and split it as many ways as it possible.
+Eg:- enter the string:- abcd
+	a  bcd
+	a  b  cd
+	a  b  c  d
+	abc   d
+	ab  c d
+
+
+3.	Finding the length between 2 integer in the string.
+
+Eg:- enter no: 451276
+Enter 2 integer:5 7
+Length between 5 and 7: 3
+
+
+

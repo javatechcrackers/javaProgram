@@ -1,0 +1,28 @@
+Factory pattern is one of most used design patterns in Java. This type of design pattern comes under 
+creational pattern as this pattern provides one of the best ways to create an object.
+In Factory pattern, we create objects without exposing the creation logic to the client and refer to newly created object 
+using a common interface
+
+Motivation
+
+The Factory Design Pattern is probably the most used design pattern in modern programming languages like Java and C#. 
+It comes in different variants and implementations. If you are searching for it, most likely, you'll
+ find references about the GoF patterns: Factory Method and Abstract Factory.
+
+ 
+
+In this article we'll describe a flavor of factory pattern commonly used nowdays.
+ You can also check the original Factory Method pattern which is very similar.
+
+Intent
+
+    creates objects without exposing the instantiation logic to the client.
+    refers to the newly created object through a common interface
+
+
+
+"Define an interface for creating an object, but let subclasses decide which class to instantiate. The Factory method lets a class defer instantiation it uses to subclasses." (Gang Of Four)
+
+Creating an object often requires complex processes not appropriate to include within a composing object. The object's creation may lead to a significant duplication of code, may require information not accessible to the composing object, may not provide a sufficient level of abstraction, or may otherwise not be part of the composing object's concerns. The factory method design pattern handles these problems by defining a separate method for creating the objects, which subclasses can then override to specify the derived type of product that will be created.
+
+The factory method pattern relies on inheritance, as object creation is delegated to subclasses that implement the factory method to create objects.

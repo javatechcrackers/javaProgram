@@ -1,0 +1,21 @@
+package org.pkk.overloading.staticMethod;
+
+public class OverloadExample 
+{
+    public static void disp()
+    {
+        System.out.println("disp() method without parameter called");
+    }
+    public static void disp(String name)
+    {
+        System.out.println("disp() method with parameter called : "+name);
+    }
+    public static void main(String args[])
+    {
+        //Calling disp() method which has no parameter
+        OverloadExample.disp();
+        
+        //Calling disp() method which has one parameter
+        OverloadExample.disp("JavaInterviewPoint");
+    }
+}

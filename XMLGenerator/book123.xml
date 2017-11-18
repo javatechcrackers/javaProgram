@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Monitor>
+<declares>
+<declare id="test_instance_id" type="headerindex">Test Instance ID</declare>
+<declare id="server_response_time" type="headerindex">Server Response Time</declare>
+<declare id="number_of_answer_records" type="headerindex">Number of Answer Records</declare>
+<declare id="authority_count" type="headerindex">Authority Count</declare>
+<declare id="number_of_additional_records" type="headerindex">Number of Additional Records</declare>
+<declare id="server_response_code" type="headerindex">Server Response Code</declare>
+</declares>
+<queries>
+<query>
+<attributes alias="test_instance_id" class="none"/>
+<default method="import">Test Instance ID</default>
+</query>
+<query>
+<attributes alias="server_response_time" class="none"/>
+<default method="import">Server Response Time</default>
+</query>
+<query>
+<attributes alias="number_of_answer_records" class="none"/>
+<default method="import">Number of Answer Records</default>
+</query>
+<query>
+<attributes alias="authority_count" class="none"/>
+<default method="import">Authority Count</default>
+</query>
+<query>
+<attributes alias="number_of_additional_records" class="none"/>
+<default method="import">Number of Additional Records</default>
+</query>
+<query>
+<attributes alias="server_response_code" class="none"/>
+<default method="import">Server Response Code</default>
+</query>
+</queries>
+<expressions>
+<expression object_id="test_instance_id">Test Instance ID</expression>
+<expression object_id="server_response_time">Server Response Time</expression>
+<expression object_id="number_of_answer_records">Number of Answer Records</expression>
+<expression object_id="authority_count">Authority Count</expression>
+<expression object_id="number_of_additional_records">Number of Additional Records</expression>
+<expression object_id="server_response_code">Server Response Code</expression>
+</expressions>
+</Monitor>

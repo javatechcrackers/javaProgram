@@ -1,0 +1,10 @@
+- When a method returns of the several possible classes that share a common super class.
+- The classes chosen at run time.
+
+when to use factory pattern.
+- when you dont know ahead of time what class object you need.
+- when all potential classes are same subclass hierachy.
+- to centralize class selection code.
+- when you dont want user to have to know every subclasses.
+- to encapsulate object creation.
+
