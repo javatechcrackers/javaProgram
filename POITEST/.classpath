@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="src/poi-3.0-FINAL.jar"/>
+	<classpathentry kind="lib" path="poi-ooxml-3.9.jar"/>
+	<classpathentry kind="lib" path="poi-ooxml-schemas-3.9.jar"/>
+	<classpathentry kind="lib" path="xmlbeans-2.5.0.jar"/>
+	<classpathentry kind="lib" path="src/poi-3.5-FINAL-sources.jar"/>
+	<classpathentry kind="lib" path="axiom-api-1.2.10.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/POI"/>
+	<classpathentry kind="lib" path="dom4j-1.6.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
