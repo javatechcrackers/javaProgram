@@ -1,0 +1,6 @@
+CountDownLatch in Java is a type of synchronizer which allows one 
+Thread to wait for one or more  Threads before it starts processing.
+
+CountDownLatch works on latch principle, thread will wait until gate is open. 
+One thread waits for n number of threads specified while creating CountDownLatch.
+
