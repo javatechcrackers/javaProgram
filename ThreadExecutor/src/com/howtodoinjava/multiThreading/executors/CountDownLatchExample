@@ -1,0 +1,28 @@
+package CountDownLatchExample;
+
+import java.util.concurrent.CountDownLatch;
+
+public class CountDownLatchExample {
+
+	public static void main(String[] args) {
+	
+		String arr[] = {"Pizza","maggi","Momo"};
+		
+		final CountDownLatch latch = new CountDownLatch(arr.length);
+		Thread foodprocess = new Thread(new FoodProcessor(latch,arr));
+		foodprocess.start();
+		
+		try{
+			System.out.println("Order Recieved and is being processed");
+			latch.await();
+			System.out.println("Order processed and ready to send");
+			
+		}
+		catch(InterruptedException re){
+			re.printStackTrace();
+		}
+		
+		
+	}
+
+}
