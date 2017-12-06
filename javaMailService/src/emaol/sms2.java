@@ -5,9 +5,9 @@ import javax.mail.internet.*;
 import java.util.*;
 
 public class sms2 {
-	String d_email = "katiyarp11@gmail.com", d_password = "ultimate007",
+	String d_email = "XXXXX@gmail.com", d_password = "XXXX",
 			d_host = "smtp.gmail.com", d_port = "587",
-			m_to = "prashantkatiyar07@gmail.com", m_subject = "Testing",
+			m_to = "XXXXX@gmail.com", m_subject = "Testing",
 			m_text = "Hey, this is the testing email.";
 
 	public sms2() {
