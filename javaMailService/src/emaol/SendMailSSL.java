@@ -13,8 +13,8 @@ import javax.mail.internet.MimeMessage;
 public class SendMailSSL {
 	public static void main(String[] args) {
 
-		final String username = "katiyarp11@gmail.com";
-		final String password = "ultimate007";
+		final String username = "XXX@gmail.com";
+		final String password = "XXXX";
 
 		Properties props = new Properties();
 		props.put("mail.smtps.auth", "true");
@@ -37,9 +37,9 @@ public class SendMailSSL {
 		try {
 
 			Message message = new MimeMessage(session);
-			message.setFrom(new InternetAddress("katiyarp11@gmail.com"));
+			message.setFrom(new InternetAddress("XXXX@gmail.com"));
 			message.setRecipients(Message.RecipientType.TO,
-				InternetAddress.parse("prashantkatiyar07@gmail.com"));
+				InternetAddress.parse("XXXX@gmail.com"));
 			message.setSubject("Testing Subject");
 			message.setText("Dear Mail Crawler,"
 				+ "\n\n No spam to my email, please!");
