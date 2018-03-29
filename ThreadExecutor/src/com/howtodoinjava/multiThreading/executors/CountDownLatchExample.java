@@ -1,5 +1,4 @@
-package CountDownLatchExample;
-
+package com.howtodoinjava.multiThreading.executors;
 import java.util.concurrent.CountDownLatch;
 
 public class CountDownLatchExample {
