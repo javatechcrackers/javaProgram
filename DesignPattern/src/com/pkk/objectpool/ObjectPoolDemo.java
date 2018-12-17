@@ -38,7 +38,7 @@ public class ObjectPoolDemo
              
              
            */
-	    	SimpleDateFormat   
+	    	ObjectPool<ExportingProcess>   
 	    	   
         pool = new ObjectPool<ExportingProcess>(4, 10, 5)
         {
