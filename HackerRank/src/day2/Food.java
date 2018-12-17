@@ -3,6 +3,7 @@ package day2;
 import java.util.Scanner;
 
 class Food {
+	private static final int size = 0;
 	public void serveFood(){
 		 System.out.println("I'm serving Food");
 	}
